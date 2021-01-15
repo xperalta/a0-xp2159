@@ -6,7 +6,7 @@ function setup() {
 
 }
 function preload(){
-	dt= loadImage('img/daytime.jpg');
+	dt= loadImage('./assets/img/daytime.jpg');
 }
 
 function draw() {
