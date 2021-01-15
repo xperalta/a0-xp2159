@@ -26,16 +26,16 @@ function draw() {
 		rect(18,90,mins*13,30,20);
 		console.log(mins);
 		fill(215,181,144);
-		rect(20,130,seconds*13,15,20);
+		rect(18,130,seconds*13,15,20);
 	}else{
 		setGradient(n1,n2);
 		fill(72, 52, 117);
-		rect(18,20,hr*34,60,20);
+		rect(18,90,mins*13,30,20);
 		fill(107, 73, 132);
 		rect(20,140,mins*13,30,20);
 		console.log(mins);
 		fill(133, 89, 136);
-		rect(20,200,seconds*13,15,20);
+		rect(18,130,seconds*13,15,20);
 	}
 		fill(255,223,0);
 		circle(360,290,200);
