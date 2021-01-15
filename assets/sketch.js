@@ -20,25 +20,33 @@ function draw() {
 	
 	if(hr > 6 && hr < 18){
 		setGradient(d1,d2);
+
 		fill(186,83,84);
 		rect(18,20,hr*34,60,20);
+
 		fill(196,119,103);
-		rect(18,90,mins*13,30,20);
+		rect(20,80,mins*13,30,20);
+
 		console.log(mins);
 		fill(215,181,144);
-		rect(18,130,seconds*13,15,20);
+		rect(20,110,seconds*13,15,20);
 	}else{
+
 		setGradient(n1,n2);
+		
 		fill(72, 52, 117);
-		rect(18,90,mins*13,30,20);
+		rect(18,20,hr*34,60,20);
+
 		fill(107, 73, 132);
-		rect(20,140,mins*13,30,20);
+		rect(20,80,mins*13,30,20);
+
 		console.log(mins);
 		fill(133, 89, 136);
-		rect(18,130,seconds*13,15,20);
+		rect(20,110,seconds*13,15,20);
 	}
+	
 		fill(255,223,0);
-		circle(360,290,200);
+		circle(360,250,200);
 
 
 
